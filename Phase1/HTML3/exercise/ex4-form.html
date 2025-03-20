@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>フォーム演習</title>
+</head>
+<body>
+
+<h1>お届け先情報入力</h1>
+<p>ご注文ありがとうございます。下記の項目をご入力ください。</p>
+
+<form action="sample.php" method="post">
+<table cellspacing="0" cellpadding="20" border="1">
+  <tr>
+    <th>お買上げ商品</th>
+    <td>
+      <select name="products">
+        <option>厳選 生ジェラート</option>
+        <option>果肉いっぱい アイスキャンディ</option>
+        <option>体に優しい 健康ゼリー</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th>お買上げ個数</th>
+    <td><input type="text" name="number" value="">個
+    </td>
+  </tr>
+  <tr>
+    <th>お名前(必須)</th>
+    <td><input type="text" name="name" value=""></td>
+  </tr>
+  <tr>
+    <th>郵便番号(必須)</th>
+    <td><input type="text" name="zipcode" value=""></td>
+  </tr>
+  <tr>
+    <th>住所(必須)</th>
+    <td><input type="text" name="address" value=""></td>
+  </tr>
+  <tr>
+    <th>電話番号(必須)</th>
+    <td><input type="tel" name="tel" value=""></td>
+  </tr>
+  <tr>
+    <th>クレジットカード情報(必須)</th>
+    <td>
+      クレジットカード番号<br>
+      <input type="text" name="card1" value="">-
+      <input type="text" name="card2" value="">-
+      <input type="text" name="card3" value="">-
+      <input type="text" name="card4" value=""><br>
+      有効期限<br>
+      <select name="card-month">
+        <option selected>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+      </select>
+      月
+      <select name="card-year">
+        <option>18</option>
+        <option>19</option>
+        <option selected>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+      </select>
+      年
+    </td>
+  </tr>
+  <tr>
+    <th>メルマガ</th>
+    <td>
+      最新情報やセール情報などをお届けするメルマガを受け取りますか？<br>
+      <label><input type="radio" name="magazine" value="OK">受け取る</label>
+      <label><input type="radio" name="magazine" value="NG">受け取らない</label>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="submit" name="submit" value="決定"></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

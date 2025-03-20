@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>フォーム例題</title>
+</head>
+<body>
+
+<h1>selected属性</h1>
+
+<form action="contact.php" method="get">
+<h2>指定あり(3つ目が予め選択)</h2>
+<p>
+<select name="coffee">
+  <option value="c1">1.ブルーマウンテン</option>
+  <option value="c2">2.コロンビア</option>
+  <option value="c3" selected>3.ブラジル・サントス</option>
+</select>
+</p>
+
+<h2>指定なし</h2>
+<p>
+<select name="coffee">
+  <option value="c1">1.ブルーマウンテン</option>
+  <option value="c2">2.コロンビア</option>
+  <option value="c3">3.ブラジル・サントス</option>
+</select>
+</p>
+</form>
+
+</body>
+</html>

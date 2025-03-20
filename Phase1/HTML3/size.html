@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>フォーム例題</title>
+</head>
+<body>
+<h1>size属性</h1>
+<form action="contact.php" method="get">
+
+<h2>size属性(input要素)</h2>
+<p>指定なし</p>
+<p><input type="text" name="sample1" value="" ></p>
+<p>5を指定(全角5文字分のサイズになる)</p>
+<p><input type="text" name="sample2" value="" size="5"></p>
+
+<h2>size属性(select要素)</h2>
+<p>指定なし</p>
+<select name="coffee">
+  <option value="c1">ブルーマウンテン</option>
+  <option value="c2">コロンビア</option>
+  <option value="c3">ブラジル・サントス</option>
+</select>
+
+<p>2を指定(2行分のサイズになる)</p>
+<select name="coffee" size="2">
+  <option value="c1">ブルーマウンテン</option>
+  <option value="c2">コロンビア</option>
+  <option value="c3">ブラジル・サントス</option>
+</select>
+</form>
+</body>
+</html>
