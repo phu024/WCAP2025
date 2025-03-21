@@ -1,0 +1,13 @@
+The list of colors used on the web page
+
+*Please use these as a reference:
+
+#333;
+#a17c5e;
+#dcb12f;
+#fff;
+#B01717;
+#f8f3f0;
+#d0baa8;
+#5a412d;
+
