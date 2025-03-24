@@ -41,3 +41,19 @@ nav ul a {
     text-decoration: none; /* Remove underline from links */
 }
 
+/* Main Section */
+
+main {
+    width: 960px; /* Set the width of the main section */
+    margin: 0 auto; /* Center align the main section */
+}
+
+main ul{
+    display: flex; /* Use flexbox for layout (horizontal alignment) */
+    justify-content: space-between; /* Space between list items */
+}
+
+main ul li {
+    width: auto; /* Set the width of each list item to auto */
+    background-color: #f0f0f0; /* Set background color for list items */
+}
