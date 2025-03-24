@@ -1,13 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+ul {
+    list-style: none; /* Remove default list style */
+
+}
+
 /* Header Style */
-#headerInner{
+#headerInner {
     width: 960px; /* Set the width of the header */
     margin-left: auto;
-    margin-left: auto; 
+    margin-right: auto;
     display: flex; /* Use flexbox for layout (horizontal alignment) */
     justify-content: space-between; /* Space between header elements */
 }
+
+nav {
+    background-color: #016ba1;
+}
+
+nav ul {
+    width: 960px; /* Set the width of the navigation bar */
+    margin: 0 auto;
+    display: flex; /* Use flexbox for layout (horizontal alignment) */ 
+    justify-content: space-between; /* Space between navigation items */
+
+}
+nav ul li {
+    width: 200px; /* Set the width of each navigation item */
+}
+
+nav ul a {
+    color: #fff; /* Set link color to white */
+    font-weight: bold; /* Make the text bold */
+    padding: 15px 20px; /* Add padding to the links */
+    display: block; /* Make the link a block element */
+    text-align: center; /* Center align the text */
+    text-decoration: none; /* Remove underline from links */
+}
+
