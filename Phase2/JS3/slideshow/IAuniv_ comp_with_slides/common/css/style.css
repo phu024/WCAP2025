@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* Reset CSS: Reset default margins and padding for all elements */
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol {
+  list-style-type: none; /* Remove list markers */
+}
+table {
+  border-collapse: collapse; /* Prevent table borders from overlapping */
+}
+h1,h2,h3 {
+  font-size: 100%; /* Set heading font sizes to default */
+  font-weight: normal; /* Set headings to normal font weight */
+  line-height: 1; /* Reduce line spacing */
+}
+img {
+  display:block; /* Prevent unnecessary whitespace below images */
+}
+
+/* Basic style settings */
+body {
+  font-size: 16px; /* Set base font size */
+  line-height: 1.7; /* Set line spacing for readability */
+  color: #362e2b; /* Text color */
+  background-color: #F8F8F8; /* Background color */
+  font-family: "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo", sans-serif; /* Font family */
+}
+
+a {
+  color: #0075A9; /* Specify link text color */
+}
+
+/* Header section styles */
+header {
+  background-color: #FFF; /* Set background color to white */
+}
+
+#headerInner {
+  width: 960px; /* Fix content width to 960px */
+  margin: 0 auto; /* Center content horizontally */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute elements to the sides */
+  align-items: center; /* Center elements vertically */
+  padding: 20px 0; /* Add 20px padding above and below */
+}
+
+#logo img {
+  width: 210px; /* Fix logo image width */
+  height: auto; /* Maintain aspect ratio by adjusting height */
+}
+
+#headerSub {
+  display: flex; /* Layout items horizontally */
+}
+
+#headerSub form {
+  margin-right: 10px; /* Add margin to the right of the form */
+  width: 200px; /* Set form width */
+  display: flex; /* Use horizontal layout */
+  justify-content: space-between; /* Separate input field and button */
+  align-items: center; /* Center elements vertically */
+}
+
+#textbox {
+  border: solid 1px #ccc; /* Set border for the text box */
+  width: 150px;
+}
+
+/* Global navigation styles */
+#gNavi {
+  background-color: #016ba1; /* Navigation background color */
+}
+
+#gNavi ul {
+  display: flex; /* Arrange items horizontally */
+  justify-content: space-between; /* Distribute links evenly */
+  width: 960px; /* Set navigation width to 960px */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto;
+}
+
+#gNavi li {
+  width: 200px; /* Set width for each navigation item */
+}
+
+#gNavi a {
+  text-align: center; /* Center-align links */
+  display: block; /* Make the entire link area clickable */
+  color: #fff; /* Set text color to white */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 16px; /* Set font size */
+  font-weight: bold; /* Make text bold */
+  padding: 15px 20px; /* Add padding inside links */
+}
+
+main{
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Main image styles */
+#mainPhoto {
+  width: 960px; /* Set main image width to 960px */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto;
+  margin-top: 20px; /* Add 20px margin above */
+}
+
+.shadow {
+  box-shadow: #ddd 0px 0px 10px 0px; /* Add shadow to images */
+}
+
+/* Content menu styles */
+#contentsMenu {
+  display: flex; /* Arrange menu items horizontally */
+  justify-content: space-between; /* Distribute menu items evenly */
+  width: 960px; /* Set width to 960px */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto;
+  margin-top: 20px; /* Add 20px margin above */
+}
+
+/* Separate content into left and right areas using flexbox */
+#contents {
+  display: flex; /* Arrange items horizontally */
+  justify-content: space-between; /* Distribute evenly */
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* Left content area */
+#leftContents {
+  width: 700px; /* Set left area width to 700px */
+}
+
+#leftContents section {
+  background-color: #FFF; /* Set background color to white */
+  padding: 13px; /* Add padding inside the section */
+  margin-bottom: 20px; /* Add 20px margin between sections */
+}
+
+#leftContents table {
+  width: 100%; /* Set table to full width */
+  margin-top: 20px; /* Add 20px margin above */
+}
+
+#leftContents th, #leftContents td {
+  text-align: left; /* Align text to the left */
+  padding: 10px; /* Add 10px padding inside cells */
+  border-bottom: 1px solid #ddd; /* Add border between rows */
+}
+
+#leftContents section:nth-child(2) p {
+  padding: 10px; /* Add padding to paragraphs in the section */
+}
+
+/* Right sidebar */
+#contents aside {
+  margin-left: 10px; /* Add 10px margin to the left */
+}
+
+#sub li {
+  list-style: none; /* Remove list markers */
+  margin-bottom: 20px; /* Add margin between items */
+}
+
+#sub img {
+  width: 100%; /* Adjust image width to fit container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Footer styles */
+footer {
+  background-color: #016ba1; /* Match background color with navigation */
+  color: white; /* Set text color to white */
+  padding: 30px 0; /* Add 30px padding above and below */
+  margin-top: 50px; /* Add 50px margin above footer */
+}
+
+#footerInner {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute elements to the sides */
+  max-width: 960px; /* Set width to 960px */
+  margin: 0 auto; /* Center horizontally */
+}
+
+#copyright {
+  font-size: 12px; /* Set font size for copyright text */
+}
