@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+#headerInner{
+    width: 960px; /* Set the width of the header */
+    margin-left: auto;
+    margin-left: auto; 
+    display: flex; /* Use flexbox for layout (horizontal alignment) */
+    justify-content: space-between; /* Space between header elements */
+}
