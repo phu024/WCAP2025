@@ -48,7 +48,7 @@ main {
     margin: 0 auto; /* Center align the main section */
 }
 
-main ul{
+main #pickup{
     display: flex; /* Use flexbox for layout (horizontal alignment) */
     justify-content: space-between; /* Space between list items */
 }
@@ -56,4 +56,28 @@ main ul{
 main ul li {
     width: auto; /* Set the width of each list item to auto */
     background-color: #f0f0f0; /* Set background color for list items */
+}
+
+#contents {
+    display: flex;
+    width: 700px;
+}
+
+#leftContents {
+    font-size: 13px;
+}
+
+/* Footer section */
+footer {
+    background-color: #016ba1; /* Set background color for the footer */
+    color: #fff; /* Set text color to white */
+    padding: 30px 0; /* Add padding to the footer */
+    margin-top: 50px; /* Add margin to the top of the footer */
+}
+
+#footerInner {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
